@@ -1,0 +1,293 @@
+/*=================== RTL DEMO STYLE ===================*/
+@font-face {
+  font-family: droidkufi regular;
+  src: url('../webfonts/DroidKufi-Regular.html'); /* IE9 Compat Modes */
+  src: url('../webfonts/DroidKufi-Regulard41d.html?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/DroidKufi-Regular-2.html') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/DroidKufi-Regular-3.html') format('woff'), /* Pretty Modern Browsers */
+       url('../webfonts/DroidKufi-Regular-4.html')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/DroidKufi-Regular-5.html#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: droidkufi bold;
+  src: url(../webfonts/droidkufibold.ttf);
+}
+
+
+/*===== RTL General Settings =====*/
+body {
+  float: left;
+  font-family: droidkufi bold;
+  letter-spacing: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:droidkufi bold;
+  color:#222;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+h1 {font-size: 48px;}
+h2 {font-size: 40px;}
+h3 {font-size: 36px;}
+h4 {font-size: 30px;}
+h5 {font-size: 24px;}
+h6 {font-size: 18px;}
+p{
+  font-family:droidkufi bold;
+  color:#555;
+  line-height:26px;
+  font-size:14px;
+  letter-spacing:0;
+}
+ul li,
+ol li{
+  font-family:droidkufi bold;
+  color:#666666;
+  font-size:13px;
+  line-height:20px;
+}
+/*===== RTL Style =====*/
+html {direction: rtl;}
+html .owl-carousel,
+.price,
+.rev_slider_wrapper {direction: ltr;}
+
+
+.notifecation-message,
+.logo,
+nav > div,
+nav > div > ul > li,
+.newsletter-form div,
+.quote-message-wrap > i,
+.fact-box2,
+.social-btns > a,
+.bottom-bar p,
+.bottom-links > li
+{float: right;}
+
+
+.notification-close-btn,
+.top-links,
+.header-top-inner .theme-btn,
+.header-search-wrap,
+.bottom-links,
+.res-menu-btn
+{float: left;}
+
+
+nav > div > ul > li,
+.quote-message-wrap,
+.newsletter-wrap,
+.our-missions,
+.sec-title,
+.about-us,
+.sec-box,
+.prioritie-box,
+.event-box,
+.product-box-wrap,
+.post-box,
+.post-box2,
+footer,
+.select-wrap,
+.register-vote-popup-title > h4
+{text-align: right;}
+
+
+
+{text-align: left;}
+
+
+.event-time-location > li i,
+.product-thumb,
+.fact-box2 + .fact-box2::before,
+.widget-box ul li::before
+{
+  left: auto;
+  right: 0;
+}
+
+
+.search-close-btn,
+.owl-carousel .owl-dots
+{
+  left: 0;
+  right: auto;
+}
+
+.res-menu > ul,
+.res-menu > ul ul {padding-right: 0;}
+
+
+
+.res-top-links > a i {margin: 0 0 0 6px;}
+.top-links > a {margin: 0 30px 0 0;}
+.fea-inf > a i {margin: 0 8px 0 0;}
+.top-links > a i {margin: 0 0 0 8px;}
+.post-meta > li img, 
+.post-meta > li i {margin: 0 0 0 5px;}
+.post-author > img {margin: 0 0 0 6px;}
+.header-top-inner .theme-btn {margin: 5px 60px 0 15px;}
+.theme-btn + .top-links > a {margin: 0 50px 0 0;}
+.header-search-wrap > a i {margin: 0 0 0 10px;}
+.post-meta > li {margin: 0 0 0 15px;}
+.social-btn > i {margin: 0 0 0 20px;}
+nav > div > ul > li {margin: 0 0 0 45px;}
+nav > div > ul ul {
+  left: auto;
+  right: -40px;
+}
+nav > div > ul ul ul {
+  left: auto;
+  right: 100%;
+}
+.newsletter-form div.zipcode-field,
+.newsletter-form > button {margin: 0 -10px 0 0;}
+.quote-message-wrap > i {
+  margin: 0 0 0 55px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.mission-box-info {padding: 0 40px 0 0;}
+.social-btn::before {
+  right: auto;
+  left: 60px;
+}
+.event-time-location > li {padding: 0 27px 0 0;}
+.product-box-inner {padding: 35px 75px 32px 30px;}
+.price > * {display: inline-block;}
+.product-btns > a + a::before {
+  right: -9px;
+  left: 0;
+}
+.post-info2 {
+  left: 40px;
+  right: 50px;
+}
+.post-author {
+  left: auto;
+  right: 50px;
+}
+.select-wrap .chosen-container-single .chosen-single {padding: 26px 60px 26px 69px;}
+.select-wrap .chosen-container-single .chosen-single::before {
+  right: auto;
+  left: 55px;
+}
+.social-btns > a {margin: 5px 0 0 5px;}
+.widget-box ul li {padding: 0 22px 0 0;}
+.widget-box ul li::before {content: "\f060";}
+.newsletter-wrap2 > form input {padding: 21px 50px 21px 100px;}
+.newsletter-wrap2 > form button {
+  right: auto;
+  left: 35px;
+}
+.newsletter-wrap2 > h4 {padding: 0 0 0 70px;}
+.facts-wrap2 {padding: 0 70px 0 0;}
+.fact-box2:last-child {padding: 0 30px 0 0;}
+.bottom-links > li {margin: 0 35px 0 0;}
+.register-vote-popup-form-wrap > form .input-field i {
+  left: 25px;
+  right: auto;
+}
+.bottom-links > li,
+.event-info > a,
+.theme-btn,
+.theme-btn2,
+.fea-inf > a,
+.fea-inf > span,
+.campaign-box > span,
+.sec-title2 > p,
+.register-btns > a,
+.coming-soon-form-wrap > a.brd-btn,
+.contact-wrap.style2 .contact-form-wrap > form button.brd-btn,
+.header-search-wrap > a,
+.top-links > a,
+.notifecation-message > strong, 
+.notifecation-message > a,
+.quote-info blockquote,
+.bottom-bar p {font-family: droidkufi bold;}
+.fact-box2 > h4,
+.fact-box > h1,
+.campaign-box > h1,
+.bottom-bar p a {font-family: open sans;}
+.event-time-location > li,
+.fea-inf > p,
+.sec-title2 > p,
+.post-meta > li,
+.select-wrap .chosen-container-single .chosen-single,
+.newsletter-wrap2 > form input,
+.quote-info blockquote,
+.prioritie-info > p,
+.newsletter-form input {font-style: normal;}
+.event-time-location > li,
+.newsletter-wrap2 > form input,
+.widget-box ul li,
+.bottom-bar p {font-size: 14px;}
+.newsletter-form input {font-size: 13px;}
+.priorite-cat {font-size: 12px;}
+.select-wrap .chosen-container-single .chosen-single,
+.register-btns > a,
+.newsletter-wrap2 > h5 span {font-size: 16px;}
+.sec-title2 > p,
+.quote-info blockquote,
+.campaign-box > span {font-size: 18px;}
+.social-btn,
+.fea-inf > span {font-size: 20px;}
+.sec-title > h2 span {font-size: 22px;}
+.event-info > a{
+  letter-spacing: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.campaign-box > h6 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.campaign-box > span,
+.event-info > h6,
+.sec-title > h2,
+.sec-title2 > h1,
+.post-info > h6, 
+.post-info2 > h6,
+.register-btns > a,
+.bottom-links > li,
+.bottom-bar p {letter-spacing: 0;}
+.fea-inf > a {letter-spacing: 0;}
+.post-info > h6, 
+.post-info2 > h6 {line-height: 28px;}
+.newsletter-wrap2 > h5 {line-height: 31px;}
+.bottom-links > li {color: #333;}
+.bottom-bar p {font-weight: 400;}
+.bottom-bar p a {font-weight: 600;}
+.register-vote-popup-title {padding: 31px 80px 31px 30px;}
+
+
+
+
+@media (max-width: 1366px){
+.quote-message-wrap > i {margin: 0 0 0 35px;}
+
+}
+
+
+@media (max-width: 1200px){
+.quote-message-wrap > i {margin: 0 0 0 30px;}
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1024px){
+.newsletter-form div.zipcode-field {margin: 0;}
+
+}
+
+
+@media (max-width: 480px){
+.newsletter-form > button {margin: 0 -20px 0 0;}
+
+}

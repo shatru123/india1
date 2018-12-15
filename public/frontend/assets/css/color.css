@@ -1,0 +1,301 @@
+/*===== Theme Color =====*/
+/*===== Background Color =====*/
+.theme-bg,
+.theme-bg-layer:before,
+.theme-btn:hover,
+.theme-btn:focus,
+.theme-btn2,
+.event-info > a:hover,
+.event-info > a:focus,
+.product-thumb:before,
+.select-wrap .chosen-container-single .chosen-drop .chosen-results > li.result-selected,
+.select-wrap .chosen-container-single .chosen-drop .chosen-results > li.highlighted,
+.page-link:hover:before,
+.page-link:focus:before,
+.page-item.active .page-link:before,
+.page-item.prev .page-link:hover:before,
+.page-item.next .page-link:hover:before,
+.page-item.prev .page-link:focus:before,
+.page-item.next .page-link:focus:before,
+.select-wrap2 .chosen-drop .chosen-results > li.result-selected,
+.select-wrap2 .chosen-drop .chosen-results > li.highlighted,
+.shipping-calculator-form .chosen-drop .chosen-results > li.result-selected, 
+.shipping-calculator-form .chosen-drop .chosen-results > li.highlighted,
+.social-btns-wrap:hover > i,
+.social-btns-wrap .social-btns2 > a:hover,
+.social-btns-wrap .social-btns2 > a:focus,
+.give_error > p::after,
+.give-donation-amount > span,
+.give-submit-button-wrap > input[type="submit"],
+.cat-wrap > a,
+.tags-wrap > a,
+.social-share2 > a:hover,
+.social-share2 > a:focus,
+.comment-reply-link:hover,
+.comment-reply-link:focus,
+.add_to_wishlist:hover,
+.add_to_wishlist:focus,
+.product-detail-thumb-img:before,
+.comment-respond > form.comment-form p.form-submit input.theme-btn2,
+.coupon input[type="submit"]:hover,
+.coupon input[type="submit"]:focus,
+.actions > input[type="submit"]:hover,
+.actions > input[type="submit"]:focus,
+.popup-close:hover,
+.res-menu-btn:hover,
+.res-top-links2 > a.blue-bg:hover,
+.res-top-links2 > a.blue-bg:focus,
+.res-menu-close:hover,
+.notification-close-btn:hover,
+.theme-btn.theme-bg,
+.about-us > ul > li:before
+{
+	background-color: #0194c9;
+}
+
+
+{
+	background: #0194c9;
+}
+
+/*===== Text Color =====*/
+.theme-clr,
+.top-links > a:hover,
+.top-links > a:focus,
+nav > div > ul > li:hover > a,
+nav > div > ul > li > a:focus,
+.header-search-wrap > a:hover,
+.header-search-wrap > a:focus,
+.header-search > form button:hover,
+.header-search > form button:focus,
+.mission-box-info > h6 a:hover,
+.mission-box-info > h6 a:focus,
+.prioritie-info > h6 a:hover,
+.prioritie-info > h6 a:focus,
+.fea-inf > h4 a:hover,
+.fea-inf > h4 a:focus,
+.fea-inf > a:hover,
+.fea-inf > a:focus,
+.fea-inf > a:hover i,
+.fea-inf > a:focus i,
+.event-info > h6 a:hover,
+.event-info > h6 a:focus,
+.product-info > h6 a:hover,
+.product-info > h6 a:focus,
+.post-info > h6 a:hover,
+.post-info > h6 a:focus,
+.post-info2 > h6 a:hover,
+.post-info2 > h6 a:focus,
+.post-meta > li,
+.post-author,
+.widget-box > ul > li:hover,
+.widget-box > ul > li:hover > a,
+.widget-box > ul > li a:focus,
+.social-btns > a:hover,
+.social-btns > a:focus,
+.widget-box ul li:hover:before,
+.newsletter-wrap2 > form button:hover,
+.newsletter-wrap2 > form button:focus,
+.bottom-links > li a:hover,
+.bottom-links > li a:focus,
+.breadcrumb > li.active,
+.breadcrumb > li a:hover,
+.breadcrumb > li a:focus,
+nav > div > ul ul li:hover > a,
+nav > div > ul ul li a:focus,
+.social-share > a:hover,
+.social-share > a:focus,
+.header-cart > a:hover,
+.header-cart > a:focus,
+header.style2 .header-search-wrap > a:hover,
+header.style2 .header-search-wrap > a:focus,
+.campaign-volunteer-unit-sec.style2 .fea-inf > a,
+.campaign-volunteer-unit-sec.style2 .fea-inf > a:hover > i,
+.campaign-volunteer-unit-sec.style2 .fea-inf > a:focus > i,
+.about-post-info > h6 a:hover,
+.about-post-info > h6 a:focus,
+.event-info2 > h5 a:hover,
+.event-info2 > h5 a:focus,
+.event-carousel > div.slick-arrows:hover,
+.event-carousel > div.slick-arrows:focus,
+.cause-info > h6 a:hover,
+.cause-info > h6 a:focus,
+.tweet-item > a:hover,
+.tweet-item > a:focus,
+.history-inner > a:hover,
+.history-inner > a:focus,
+.mini-post-info > h6 a:hover,
+.mini-post-info > h6 a:focus,
+.mini-post-meta > a:hover,
+.mini-post-meta > a:focus,
+.widget-box.widget_search > form > button:hover,
+.widget-box.widget_search > form > button:focus,
+.widget-box.style2 ul li:hover:before,
+.post-info > a:hover,
+.post-info > a:focus,
+.post-info > a:hover i,
+.post-info > a:focus i,
+.post-meta2 > li a:hover,
+.post-meta2 > li a:focus,
+.error-form > button:hover,
+.error-form > button:focus,
+.team-info > h5 a:hover,
+.team-info > h5 a:focus,
+.contact-info-list > li a:hover,
+.contact-info-list > li a:focus,
+.author-info > h6 a:hover,
+.author-info > h6 a:focus,
+.comment-details > h6 a:hover,
+.comment-details > h6 a:focus,
+.donor-info > h6 a:hover,
+.donor-info > h6 a:focus,
+.event-info-list > li a:hover,
+.event-info-list > li a:focus,
+.product_meta > span > a:hover,
+.product_meta > span > a:focus,
+.product-tags,
+.price > ins,
+.product_meta > span span.sku,
+.product-detail-tabs > ul.nav-tabs li.nav-item a.nav-link:hover,
+.shop_table.cart tr td.product-remove > a:hover,
+.shop_table.cart tr td.product-remove > a:focus,
+.shop_table.cart tr td.product-name > a:hover,
+.shop_table.cart tr td.product-name > a:focus,
+.volunteer-info-list > li a:hover,
+.volunteer-info-list > li a:focus,
+.related-project-info > h6 a:hover,
+.related-project-info > h6 a:focus,
+.proj-date > a:hover,
+.proj-date > a:focus,
+.stars > span a:hover,
+.stars > span a:focus,
+.res-top-links > a:hover,
+.res-top-links > a:focus,
+.res-menu > ul li:hover > a,
+.res-menu > ul li.active > a,
+.res-menu > ul li a:focus,
+.notifecation-message > a:hover,
+.notifecation-message > a:focus,
+.rev-btn.theme-btn:hover, 
+.rev-btn.theme-btn:focus
+{
+	color: #0194c9;
+}
+
+/*===== Border Color =====*/
+.theme-brd-clr,
+.event-info > a:hover,
+.event-info > a:focus,
+.social-btns-wrap > i:hover,
+.coupon input[type="submit"]:hover,
+.coupon input[type="submit"]:focus,
+.actions > input[type="submit"]:hover,
+.actions > input[type="submit"]:focus,
+.rev-btn.theme-btn
+{
+	border-color: #0194c9;
+}
+
+/*===== Border Top Color =====*/ 
+
+{
+	border-top-color: #0194c9;
+}
+
+/*===== Border Right Color =====*/ 
+
+{
+	border-right-color: #0194c9;
+}
+
+/*===== Border Bottom Color =====*/
+
+{
+	border-bottom-color: #0194c9;
+}
+
+/*===== Border Left Color =====*/ 
+.give_error > p
+{
+	border-left-color: #0194c9;
+}
+
+
+/*===== Secondry Color =====*/
+/*===== Background Color =====*/
+.blue-bg,
+.blue-bg-layer:before,
+.theme-btn,
+.owl-carousel .owl-dots > div:hover,
+.owl-carousel .owl-dots > div.active,
+.theme-btn2:hover,
+.theme-btn2:focus,
+.register-btns > a.brd-btn:hover,
+.register-btns > a.brd-btn:focus,
+.register-btns > a.fill-btn,
+.cause-thumb > a:hover,
+.cause-thumb > a:focus,
+.coming-soon-form-wrap > a.brd-btn:hover,
+.coming-soon-form-wrap > a.brd-btn:focus,
+.give-submit-button-wrap > input[type="submit"]:hover,
+.give-submit-button-wrap > input[type="submit"]:focus,
+.contact-wrap.style2 .contact-form-wrap > form button.brd-btn:hover,
+.contact-wrap.style2 .contact-form-wrap > form button.brd-btn:focus,
+.cat-wrap > a:hover,
+.cat-wrap > a:focus,
+.tags-wrap > a:hover,
+.tags-wrap > a:focus,
+.comment-respond > form.comment-form p.form-submit input.theme-btn2:hover,
+.comment-respond > form.comment-form p.form-submit input.theme-btn2:focus,
+.res-top-links2 > a.theme-bg:hover,
+.res-top-links2 > a.theme-bg:focus,
+.theme-btn.theme-bg:hover,
+.theme-btn.theme-bg:focus,
+.notification-close-btn
+{
+	background-color: #001339;
+}
+
+/*===== Text Color =====*/
+.blue-clr,
+.priorite-cat > a:hover, 
+.priorite-cat > a:focus,
+.event-time-location > li a:hover,
+.event-time-location > li a:focus,
+.product-btns > a:hover,
+.product-btns > a:focus,
+.post-meta > li a:hover,
+.post-meta > li:hover i,
+.post-meta > li a:focus,
+.footer-wrap > p a:hover,
+.footer-wrap > p a:focus,
+.product-tags > a:hover,
+.product-tags > a:focus,
+.review-link:hover,
+.review-link:focus,
+nav.theme-bg > div > ul > li:hover > a,
+nav.theme-bg > div > ul > li > a:focus,
+.theme-bg .header-search-wrap > a:hover,
+.theme-bg .header-search-wrap > a:focus,
+.theme-bg.header-search > form button:hover,
+.theme-bg.header-search > form button:focus,
+.theme-bg.header-search .search-close-btn:hover,
+.theme-bg .widget-box ul li:hover > a,
+.theme-bg .widget-box ul li a:focus,
+.theme-bg .widget-box ul li:hover::before
+{
+	color: #001339;
+}
+
+/*===== Border Color =====*/
+.blue-brd-clr,
+.register-btns > a.brd-btn:hover,
+.register-btns > a.brd-btn:focus,
+.register-btns > a.fill-btn,
+.coming-soon-form-wrap > a.brd-btn:hover,
+.coming-soon-form-wrap > a.brd-btn:focus,
+.contact-wrap.style2 .contact-form-wrap > form button.brd-btn:hover,
+.contact-wrap.style2 .contact-form-wrap > form button.brd-btn:focus
+{
+	border-color: #001339;
+}
