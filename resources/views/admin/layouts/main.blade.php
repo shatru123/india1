@@ -79,7 +79,7 @@ License: You must have a valid license purchased only from themeforest to legall
                             <span class="badge badge-success badge-indicator"></span>
                         </div>
                         <div class="media-body">
-                            <span>Madelyn Shane<i class="zmdi zmdi-chevron-down"></i></span>
+                            <span>{{Auth::user()->name}}<i class="zmdi zmdi-chevron-down"></i></span>
                         </div>
                     </div>
                 </a>
@@ -98,7 +98,12 @@ License: You must have a valid license purchased only from themeforest to legall
                         </div>
                     </div>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-power"></i><span>Log out</span></a>
+                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="dropdown-icon zmdi zmdi-power"></i><span>Log out</span></a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+
                 </div>
             </li>
         </ul>
@@ -135,7 +140,6 @@ License: You must have a valid license purchased only from themeforest to legall
                                     <li class="nav-item active">
                                         <a class="nav-link" href="">CRM</a>
                                     </li>
-
                                 </ul>
                             </li>
                         </ul>
@@ -167,19 +171,19 @@ License: You must have a valid license purchased only from themeforest to legall
                             <li class="nav-item">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="profile.html">MP/MLA</a>
+                                        <a class="nav-link" href="{{route('mpmla.index')}}">MP/MLA</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="invoice.html">Colleges</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Events</a>
+                                        <a class="nav-link" href="{{route('events.index')}}">Events</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="activity.html">News</a>
+                                        <a class="nav-link" href="{{route('news.index')}}">News</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="faq.html">Ads</a>
+                                        <a class="nav-link" href="{{route('ads.index')}}">Ads</a>
                                     </li>
                                 </ul>
                             </li>
@@ -203,10 +207,10 @@ License: You must have a valid license purchased only from themeforest to legall
                             <li class="nav-item">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">States</a>
+                                        <a class="nav-link" href="{{route('state.index')}}">States</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">Cities</a>
+                                        <a class="nav-link" href="{{route('city.index')}}">Cities</a>
                                     </li>
 
 

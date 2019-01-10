@@ -26,23 +26,25 @@
 <body itemscope>
 <main>
     <header class="style1">
-        {{--<div class="notification-box">--}}
-            {{--<div class="container">--}}
-                {{--<div class="notifecation-message"><strong>GET INCLUDED:</strong> Join The party as we stand for Civil Rights. <a href="#" title="" itemprop="url">Make A Member Today.</a></div>--}}
-                {{--<span class="notification-close-btn brd-rd5"><i class="fa fa-close"></i></span>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+        <div class="notification-box">
+            <div class="container">
+                <div class="notifecation-message"><strong>GET INCLUDED:</strong>
+                    Improving India is coming with support for our GREAT Farmers.
+                    <a href="#" title="" itemprop="url">Make A Member Today.</a></div>
+                <span class="notification-close-btn brd-rd5"><i class="fa fa-close"></i></span>
+            </div>
+        </div>
         <div class="header-top">
             <div class="container">
                 <div class="header-top-inner">
-                    <div class="logo"><a href="index-2.html" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/lg.png')}}" alt="logo.png" itemprop="image"></a></div>
+                    <div class="logo"><a href="{{route('home')}}" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/lg.png')}}" alt="logo.png" itemprop="image"></a></div>
                     <div class="top-links">
                         <a href="#" title=""><i class="fa fa-sign-in theme-clr"></i> Login</a>
                         <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
                     </div>
-                    <a class="brd-rd30 theme-btn theme-bg" href="donate-now.html" title="" itemprop="url">DONATE</a>
+                    <a class="brd-rd30 theme-btn theme-bg" href="" title="" itemprop="url">DONATE</a>
                     <div class="top-links">
-                        <a href="become-volunteer.html" title="" itemprop="url">BECOME A MEMBER</a>
+                        <a href="" title="" itemprop="url">BECOME A MEMBER</a>
                         <a href="#" title="" itemprop="url"><i class="fa fa-shopping-basket theme-clr"></i> SHOP</a>
                     </div>
                 </div>
@@ -53,81 +55,81 @@
                 <nav class="brd-rd5 theme-bg">
                     <div>
                         <ul>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">HOME</a>
+                            <li class="menu-item"><a href="#" title="" itemprop="url">HOME</a>
                                 <ul>
-                                    <li><a href="index-2.html" title="" itemprop="url">Homepage 1</a></li>
-                                    <li><a href="index-rtl-arabic.html" title="" itemprop="url">Homepage  RTL (Arabic)</a></li>
-                                    <li><a href="index2.html" title="" itemprop="url">Homepage 3</a></li>
-                                    <li><a href="index2-boxed.html" title="" itemprop="url">Homepage Boxed</a></li>
+                                    {{--<li><a href="index-2.html" title="" itemprop="url">Homepage 1</a></li>--}}
+                                    {{--<li><a href="index-rtl-arabic.html" title="" itemprop="url">Homepage  RTL (Arabic)</a></li>--}}
+                                    {{--<li><a href="index2.html" title="" itemprop="url">Homepage 3</a></li>--}}
+                                    {{--<li><a href="index2-boxed.html" title="" itemprop="url">Homepage Boxed</a></li>--}}
                                 </ul>
                             </li>
                             <li class="menu-item-has-children"><a href="#" title="" itemprop="url">BLOG</a>
                                 <ul>
-                                    <li><a href="blog-grid.html" title="" itemprop="url">Blog Grid Style</a></li>
-                                    <li><a href="blog-unique.html" title="" itemprop="url">Blog Unique Grid Style</a></li>
-                                    <li><a href="blog-list.html" title="" itemprop="url">Blog List Style</a></li>
-                                    <li><a href="blog-detail.html" title="" itemprop="url">Blog Detail</a></li>
+                                    <li><a href="" title="" itemprop="url">Comming Soon.</a></li>
+                                    {{--<li><a href="blog-unique.html" title="" itemprop="url">Blog Unique Grid Style</a></li>--}}
+                                    {{--<li><a href="blog-list.html" title="" itemprop="url">Blog List Style</a></li>--}}
+                                    {{--<li><a href="blog-detail.html" title="" itemprop="url">Blog Detail</a></li>--}}
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">PAGES</a>
+                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Review Systems</a>
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Priorities</a>
-                                        <ul>
-                                            <li><a href="priorities.html" title="" itemprop="url">Our Priorities</a></li>
-                                            <li><a href="priorities-detail.html" title="" itemprop="url">Priorities Detail</a></li>
-                                        </ul>
+                                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Comming Soon</a>
+                                        {{--<ul>--}}
+                                        {{--<li><a href="priorities.html" title="" itemprop="url">Coming Soon</a></li>--}}
+                                        {{--<li><a href="priorities-detail.html" title="" itemprop="url">Priorities Detail</a></li>--}}
+                                        {{--</ul>--}}
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Volunteers</a>
-                                        <ul>
-                                            <li><a href="volunteer.html" title="" itemprop="url">Our Volunteers</a></li>
-                                            <li><a href="volunteer-detail.html" title="" itemprop="url">Volunteers Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Gallery</a>
-                                        <ul>
-                                            <li><a href="gallery1.html" title="" itemprop="url">Gallery Style 1</a></li>
-                                            <li><a href="gallery2.html" title="" itemprop="url">Gallery Style 2</a></li>
-                                            <li><a href="gallery3.html" title="" itemprop="url">Gallery Style 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="become-volunteer.html" title="" itemprop="url">Become A Volunteer</a></li>
-                                    <li><a href="donate-now.html" title="" itemprop="url">Donate Now</a></li>
-                                    <li><a href="mission-vission.html" title="" itemprop="url">Mission & Vission</a></li>
-                                    <li><a href="branches.html" title="" itemprop="url">Find Your Local Unit</a></li>
-                                    <li><a href="coming-soon.html" title="" itemprop="url">Coming Soon</a></li>
-                                    <li><a href="404.html" title="" itemprop="url">404 Error Page</a></li>
+                                    {{--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Volunteers</a>--}}
+                                    {{--<ul>--}}
+                                    {{--<li><a href="" title="" itemprop="url">Our Volunteers</a></li>--}}
+                                    {{--<li><a href="" title="" itemprop="url">Volunteers Detail</a></li>--}}
+                                    {{--</ul>--}}
+                                    {{--</li>--}}
+                                    {{--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Gallery</a>--}}
+                                    {{--<ul>--}}
+                                    {{--<li><a href="gallery1.html" title="" itemprop="url">Gallery Style 1</a></li>--}}
+                                    {{--<li><a href="gallery2.html" title="" itemprop="url">Gallery Style 2</a></li>--}}
+                                    {{--<li><a href="gallery3.html" title="" itemprop="url">Gallery Style 3</a></li>--}}
+                                    {{--</ul>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="become-volunteer.html" title="" itemprop="url">Become A Volunteer</a></li>--}}
+                                    {{--<li><a href="donate-now.html" title="" itemprop="url">Donate Now</a></li>--}}
+                                    {{--<li><a href="mission-vission.html" title="" itemprop="url">Mission & Vission</a></li>--}}
+                                    {{--<li><a href="branches.html" title="" itemprop="url">Find Your Local Unit</a></li>--}}
+                                    {{--<li><a href="coming-soon.html" title="" itemprop="url">Coming Soon</a></li>--}}
+                                    {{--<li><a href="404.html" title="" itemprop="url">404 Error Page</a></li>--}}
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">TAKE ACTION</a>
+                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Job Opportunity</a>
                                 <ul>
-                                    <li><a href="causes-grid.html" title="" itemprop="url">Cause Grid Style</a></li>
-                                    <li><a href="causes-list.html" title="" itemprop="url">Cause List Style</a></li>
-                                    <li><a href="cause-detail.html" title="" itemprop="url">Cause Detail</a></li>
+                                    <li><a href="" title="" itemprop="url">DATA collection</a></li>
+                                    <li><a href="" title="" itemprop="url">Representative from Villages</a></li>
+                                    {{--<li><a href="cause-detail.html" title="" itemprop="url">Cause Detail</a></li>--}}
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">SHOP</a>
-                                <ul>
-                                    <li><a href="products.html" title="" itemprop="url">Our Products</a></li>
-                                    <li><a href="product-detail.html" title="" itemprop="url">Product Detail</a></li>
-                                    <li><a href="product-cart.html" title="" itemprop="url">Product Cart</a></li>
-                                    <li><a href="checkout.html" title="" itemprop="url">Checkout</a></li>
-                                </ul>
-                            </li>
+                            {{--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">SHOP</a>--}}
+                            {{--<ul>--}}
+                            {{--<li><a href="products.html" title="" itemprop="url">Our Products</a></li>--}}
+                            {{--<li><a href="product-detail.html" title="" itemprop="url">Product Detail</a></li>--}}
+                            {{--<li><a href="product-cart.html" title="" itemprop="url">Product Cart</a></li>--}}
+                            {{--<li><a href="checkout.html" title="" itemprop="url">Checkout</a></li>--}}
+                            {{--</ul>--}}
+                            {{--</li>--}}
                             <li class="menu-item-has-children"><a href="#" title="" itemprop="url">OUR EVENTS</a>
                                 <ul>
-                                    <li><a href="events-grid.html" title="" itemprop="url">Events Grid Style 1</a></li>
-                                    <li><a href="events-grid2.html" title="" itemprop="url">Events Grid Style 2</a></li>
-                                    <li><a href="events-list.html" title="" itemprop="url">Events List Style</a></li>
-                                    <li><a href="event-detail.html" title="" itemprop="url">Event Detail</a></li>
+                                    <li><a href="events-grid.html" title="" itemprop="url">Comming Soon.</a></li>
+                                    {{--<li><a href="events-grid2.html" title="" itemprop="url">Events Grid Style 2</a></li>--}}
+                                    {{--<li><a href="events-list.html" title="" itemprop="url">Events List Style</a></li>--}}
+                                    {{--<li><a href="event-detail.html" title="" itemprop="url">Event Detail</a></li>--}}
                                 </ul>
                             </li>
-                            <li><a href="about-us.html" title="" itemprop="url">ABOUT US</a></li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">CONTACT</a>
-                                <ul>
-                                    <li><a href="contact-us1.html" title="" itemprop="url">Contact Us Style 1</a></li>
-                                    <li><a href="contact-us2.html" title="" itemprop="url">Contact Us Style 2</a></li>
-                                </ul>
-                            </li>
+                            {{--<li><a href="about-us.html" title="" itemprop="url">ABOUT US</a></li>--}}
+                            {{--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">CONTACT</a>--}}
+                            {{--<ul>--}}
+                            {{--<li><a href="contact-us1.html" title="" itemprop="url">Contact Us Style 1</a></li>--}}
+                            {{--<li><a href="contact-us2.html" title="" itemprop="url">Contact Us Style 2</a></li>--}}
+                            {{--</ul>--}}
+                            {{--</li>--}}
                         </ul>
                     </div>
                     <div class="header-search-wrap">
