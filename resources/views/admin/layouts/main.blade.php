@@ -174,7 +174,7 @@ License: You must have a valid license purchased only from themeforest to legall
                                         <a class="nav-link" href="{{route('mpmla.index')}}">MP/MLA</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="invoice.html">Colleges</a>
+                                        <a class="nav-link" href="{{route('mpmla.index')}}">Colleges</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('events.index')}}">Events</a>

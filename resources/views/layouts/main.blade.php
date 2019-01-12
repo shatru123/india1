@@ -22,6 +22,19 @@
     <link rel="stylesheet" href="{{asset('public/frontend/assets/css/revolution/layers.css')}}">
     <!-- REVOLUTION NAVIGATION STYLES -->
     <link rel="stylesheet" href="{{asset('public/frontend/assets/css/revolution/navigation.css')}}">
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8585007028382289",
+            enable_page_level_ads: true
+        });
+    </script>
+
+
+
+
 </head>
 <body itemscope>
 <main>
@@ -55,7 +68,7 @@
                 <nav class="brd-rd5 theme-bg">
                     <div>
                         <ul>
-                            <li class="menu-item"><a href="#" title="" itemprop="url">HOME</a>
+                            <li class="menu-item"><a href="{{route('home')}}" title="" itemprop="url">HOME</a>
                                 <ul>
                                     {{--<li><a href="index-2.html" title="" itemprop="url">Homepage 1</a></li>--}}
                                     {{--<li><a href="index-rtl-arabic.html" title="" itemprop="url">Homepage  RTL (Arabic)</a></li>--}}
@@ -102,8 +115,8 @@
                             </li>
                             <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Job Opportunity</a>
                                 <ul>
-                                    <li><a href="" title="" itemprop="url">DATA collection</a></li>
-                                    <li><a href="" title="" itemprop="url">Representative from Villages</a></li>
+                                    <li><a href="{{url('apply')}}" title="" itemprop="url">Apply Online</a></li>
+
                                     {{--<li><a href="cause-detail.html" title="" itemprop="url">Cause Detail</a></li>--}}
                                 </ul>
                             </li>
@@ -117,7 +130,7 @@
                             {{--</li>--}}
                             <li class="menu-item-has-children"><a href="#" title="" itemprop="url">OUR EVENTS</a>
                                 <ul>
-                                    <li><a href="events-grid.html" title="" itemprop="url">Comming Soon.</a></li>
+                                    <li><a href="" title="" itemprop="url">Comming Soon.</a></li>
                                     {{--<li><a href="events-grid2.html" title="" itemprop="url">Events Grid Style 2</a></li>--}}
                                     {{--<li><a href="events-list.html" title="" itemprop="url">Events List Style</a></li>--}}
                                     {{--<li><a href="event-detail.html" title="" itemprop="url">Event Detail</a></li>--}}
@@ -153,12 +166,12 @@
                 <a href="#" title="" itemprop="url"><i class="fa fa-user theme-clr"></i> Sign Up</a>
             </div>
             <div class="res-top-links2">
-                <a class="theme-bg" href="become-volunteer.html" title="" itemprop="url">Become A Volunteer</a>
-                <a class="blue-bg" href="donate-now.html" title="" itemprop="url">Donate Now</a>
+                <a class="theme-bg" href="" title="" itemprop="url">Become A Volunteer</a>
+                <a class="blue-bg" href="" title="" itemprop="url">Donate Now</a>
             </div>
         </div>
         <div class="res-logo-sec">
-            <div class="logo"><a href="index-2.html" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/logo2.png')}}" alt="logo2.png" itemprop="image"></a></div>
+            <div class="logo"><a href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/logo2.png')}}" alt="logo2.png" itemprop="image"></a></div>
             <span class="res-menu-btn blue-bg brd-rd5"><i class="fa fa-align-justify"></i></span>
         </div>
         <div class="res-menu">
@@ -166,79 +179,43 @@
             <ul>
                 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">HOME</a>
                     <ul>
-                        <li><a href="index-2.html" title="" itemprop="url">Homepage 1</a></li>
-                        <li><a href="index-rtl-arabic.html" title="" itemprop="url">Homepage  RTL (Arabic)</a></li>
-                        <li><a href="index2.html" title="" itemprop="url">Homepage 3</a></li>
-                        <li><a href="index2-boxed.html" title="" itemprop="url">Homepage Boxed</a></li>
+
+                        <li><a href="" title="" itemprop="url">Homepage Boxed</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">BLOG</a>
                     <ul>
-                        <li><a href="blog-grid.html" title="" itemprop="url">Blog Grid Style</a></li>
-                        <li><a href="blog-unique.html" title="" itemprop="url">Blog Unique Grid Style</a></li>
-                        <li><a href="blog-list.html" title="" itemprop="url">Blog List Style</a></li>
-                        <li><a href="blog-detail.html" title="" itemprop="url">Blog Detail</a></li>
+                        <li><a href="" title="" itemprop="url">Comming Soon</a></li>
                     </ul>
                 </li>
-                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">PAGES</a>
+                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Review Systems</a>
                     <ul>
                         <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Priorities</a>
                             <ul>
-                                <li><a href="priorities.html" title="" itemprop="url">Our Priorities</a></li>
-                                <li><a href="priorities-detail.html" title="" itemprop="url">Priorities Detail</a></li>
+                                <li><a href="" title="" itemprop="url">Comming Soon</a></li>
+
                             </ul>
                         </li>
-                        <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Volunteers</a>
+                        <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Job Opprtunity</a>
                             <ul>
-                                <li><a href="volunteer.html" title="" itemprop="url">Our Volunteers</a></li>
-                                <li><a href="volunteer-detail.html" title="" itemprop="url">Volunteers Detail</a></li>
+                                <li><a href="{{url('apply')}}" title="" itemprop="url">Apply Online</a></li>
+
                             </ul>
                         </li>
-                        <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Gallery</a>
-                            <ul>
-                                <li><a href="gallery1.html" title="" itemprop="url">Gallery Style 1</a></li>
-                                <li><a href="gallery2.html" title="" itemprop="url">Gallery Style 2</a></li>
-                                <li><a href="gallery3.html" title="" itemprop="url">Gallery Style 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="become-volunteer.html" title="" itemprop="url">Become A Volunteer</a></li>
-                        <li><a href="donate-now.html" title="" itemprop="url">Donate Now</a></li>
-                        <li><a href="mission-vission.html" title="" itemprop="url">Mission & Vission</a></li>
-                        <li><a href="branches.html" title="" itemprop="url">Find Your Local Unit</a></li>
-                        <li><a href="coming-soon.html" title="" itemprop="url">Coming Soon</a></li>
-                        <li><a href="404.html" title="" itemprop="url">404 Error Page</a></li>
+
+
+
                     </ul>
                 </li>
-                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">TAKE ACTION</a>
-                    <ul>
-                        <li><a href="causes-grid.html" title="" itemprop="url">Cause Grid Style</a></li>
-                        <li><a href="causes-list.html" title="" itemprop="url">Cause List Style</a></li>
-                        <li><a href="cause-detail.html" title="" itemprop="url">Cause Detail</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">SHOP</a>
-                    <ul>
-                        <li><a href="products.html" title="" itemprop="url">Our Products</a></li>
-                        <li><a href="product-detail.html" title="" itemprop="url">Product Detail</a></li>
-                        <li><a href="product-cart.html" title="" itemprop="url">Product Cart</a></li>
-                        <li><a href="checkout.html" title="" itemprop="url">Checkout</a></li>
-                    </ul>
-                </li>
+
+
                 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">OUR EVENTS</a>
                     <ul>
-                        <li><a href="events-grid.html" title="" itemprop="url">Events Grid Style 1</a></li>
-                        <li><a href="events-grid2.html" title="" itemprop="url">Events Grid Style 2</a></li>
-                        <li><a href="events-list.html" title="" itemprop="url">Events List Style</a></li>
-                        <li><a href="event-detail.html" title="" itemprop="url">Event Detail</a></li>
+                        <li><a href="" title="" itemprop="url">Comming Soon</a></li>
+
                     </ul>
                 </li>
-                <li><a href="about-us.html" title="" itemprop="url">ABOUT US</a></li>
-                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">CONTACT</a>
-                    <ul>
-                        <li><a href="contact-us1.html" title="" itemprop="url">Contact Us Style 1</a></li>
-                        <li><a href="contact-us2.html" title="" itemprop="url">Contact Us Style 2</a></li>
-                    </ul>
-                </li>
+
             </ul>
         </div>
     </div><!-- Responsive Header -->
@@ -256,8 +233,8 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-12 col-lg-3">
                             <div class="footer-about brd-rd5 blue-bg">
-                                <div class="logo"><a href="index-2.html" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/logo.png')}}" alt="logo.png" itemprop="image"></a></div>
-                                <p itemprop="description">Year after year, families tell us why they choose Hello Summer as a priority place for their kids to spend summer holidays at and to have the best time ever.</p>
+                                <div class="logo"><a href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/logo.png')}}" alt="logo.png" itemprop="image"></a></div>
+                                <p itemprop="description">Improving India.</p>
                                 <div class="social-btns">
                                     <span>Connect Online:</span>
                                     <a class="brd-rd50" data-toggle="tooltip" data-placement="top" href="#" title="Google Plus" itemprop="url" target="_blank"><i class="fa fa-google-plus"></i></a>
@@ -274,10 +251,8 @@
                                         <div class="widget-box">
                                             <h5 itemprop="headline">Take <span>Action</span></h5>
                                             <ul>
-                                                <li><a href="donate-now.html" title="" itemprop="url">Contribute Now</a></li>
-                                                <li><a href="volunteer.html" title="" itemprop="url">Our Volunteers</a></li>
-                                                <li><a href="causes-grid.html" title="" itemprop="url">Action Center</a></li>
-                                                <li><a class="register-vote-popup-btn" href="#" title="" itemprop="url">Register to Vote</a></li>
+                                                <li><a href="" title="" itemprop="url">Contribute Now</a></li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -285,9 +260,8 @@
                                         <div class="widget-box">
                                             <h5 itemprop="headline">Get <span>Involved</span></h5>
                                             <ul>
-                                                <li><a href="blog-unique.html" title="" itemprop="url">Blog</a></li>
-                                                <li><a href="priorities.html" title="" itemprop="url">Support Our Work</a></li>
-                                                <li><a href="products.html" title="" itemprop="url">Our Products</a></li>
+                                                <li><a href="" title="" itemprop="url">Blog</a></li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -295,10 +269,10 @@
                                         <div class="widget-box">
                                             <h5 itemprop="headline">Quick <span>Links</span></h5>
                                             <ul>
-                                                <li><a href="blog-grid.html" title="" itemprop="url">News Releases</a></li>
-                                                <li><a href="events-grid.html" title="" itemprop="url">Events</a></li>
-                                                <li><a href="about-us.html" title="" itemprop="url">Terms of Use</a></li>
-                                                <li><a href="contact-us2.html" title="" itemprop="url">Contact Us</a></li>
+                                                <li><a href="" title="" itemprop="url">News Releases</a></li>
+                                                <li><a href="" title="" itemprop="url">Events</a></li>
+                                                <li><a href="" title="" itemprop="url">Terms of Use</a></li>
+                                                <li><a href="" title="" itemprop="url">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -356,10 +330,10 @@
             <div class="footer-wrap">
                 <p itemprop="description"><a class="theme-clr" href="http://html.wordpresspie.com/country" title="Country - Political HTML5 Template" itemprop="url" target="_blank">ImprovingIndia</a> &copy; 2018, All Rights Reserved, Design & Developed By: <a class="theme-clr" href="https://ithubbegin.com" title="" itemprop="url" target="_blank">Ithubbegin</a></p>
                 <ul class="bottom-links">
-                    <li><a href="index-2.html" title="" itemprop="url">HOME</a></li>
-                    <li><a href="events-grid.html" title="" itemprop="url">EVENTS</a></li>
-                    <li><a href="blog-grid.html" title="" itemprop="url">NEWS</a></li>
-                    <li><a href="contact-us1.html" title="" itemprop="url">CONTACT</a></li>
+                    <li><a href="" title="" itemprop="url">HOME</a></li>
+                    <li><a href="" title="" itemprop="url">EVENTS</a></li>
+                    <li><a href="" title="" itemprop="url">NEWS</a></li>
+                    <li><a href="" title="" itemprop="url">CONTACT</a></li>
                 </ul>
             </div>
         </div>

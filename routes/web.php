@@ -24,6 +24,7 @@ Auth::routes();
 
 Route::get('/home', 'Indexcontroller@index')->name('home');
 Route::get('/farmer', 'Indexcontroller@farmer')->name('farmer');
+Route::resource('/apply', 'JobController');
 
 Route::group(['middleware'=>'is_admin'], function(){
     Route::resource('admin/mpmla', 'MpmlaController');

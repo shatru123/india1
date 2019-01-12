@@ -186,38 +186,38 @@
             </div>
         </div><!-- END REVOLUTION SLIDER -->
     </section>
-    <section>
-        <div class="spacing no-spacing">
-            <div class="row mrg">
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                    <div class="quote-message-wrap blue-bg-layer opc9" style="background-image: url({{asset('public/frontend/assets/images/quote-bg.jpg')}});">
-                        <i class="fa fa-play-circle theme-bg brd-rd50"></i>
-                        <div class="quote-info">
-                            <h4 itemprop="headline">Promises Made, Promises Kept</h4>
-                            <blockquote>“A showcase of President Alex leadership in improving the manufacturing sector by featuring the proud workforce of artisans and apprentices.”</blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                    <div class="newsletter-wrap theme-bg-layer opc9" style="background-image: url({{asset('public/frontend/assets/images/parallax6.jpg')}});">
-                        <div class="title1">
-                            <h3 itemprop="headline">Join Our Movement!</h3>
-                            <span>Help fulfill our promise to Make India Great Again!</span>
-                        </div>
-                        <form class="newsletter-form">
-                            <div class="email-field">
-                                <input class="brd-rd33" type="email" placeholder="Your Email Id">
-                            </div>
-                            <div class="zipcode-field">
-                                <input class="brd-rd33" type="text" placeholder="Zip Code">
-                            </div>
-                            <button class="brd-rd50 blue-bg" type="submit"><i class="fa fa-arrow-right"></i></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<section>--}}
+        {{--<div class="spacing no-spacing">--}}
+            {{--<div class="row mrg">--}}
+                {{--<div class="col-md-6 col-sm-12 col-lg-6">--}}
+                    {{--<div class="quote-message-wrap blue-bg-layer opc9" style="background-image: url({{asset('public/frontend/assets/images/quote-bg.jpg')}});">--}}
+                        {{--<i class="fa fa-play-circle theme-bg brd-rd50"></i>--}}
+                        {{--<div class="quote-info">--}}
+                            {{--<h4 itemprop="headline">Promises Made, Promises Kept</h4>--}}
+                            {{--<blockquote>“A showcase of President Alex leadership in improving the manufacturing sector by featuring the proud workforce of artisans and apprentices.”</blockquote>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-6 col-sm-12 col-lg-6">--}}
+                    {{--<div class="newsletter-wrap theme-bg-layer opc9" style="background-image: url({{asset('public/frontend/assets/images/parallax6.jpg')}});">--}}
+                        {{--<div class="title1">--}}
+                            {{--<h3 itemprop="headline">Join Our Movement!</h3>--}}
+                            {{--<span>Help fulfill our promise to Make India Great Again!</span>--}}
+                        {{--</div>--}}
+                        {{--<form class="newsletter-form">--}}
+                            {{--<div class="email-field">--}}
+                                {{--<input class="brd-rd33" type="email" placeholder="Your Email Id">--}}
+                            {{--</div>--}}
+                            {{--<div class="zipcode-field">--}}
+                                {{--<input class="brd-rd33" type="text" placeholder="Zip Code">--}}
+                            {{--</div>--}}
+                            {{--<button class="brd-rd50 blue-bg" type="submit"><i class="fa fa-arrow-right"></i></button>--}}
+                        {{--</form>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <section>
         <div class="spacing gray-bg bottom-spac420">
             <div class="container">

@@ -14,7 +14,7 @@ class JobController extends Controller
      */
     public function index()
     {
-        //
+        return view('apply');
     }
 
     /**
@@ -35,7 +35,22 @@ class JobController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'f_name' => 'required',
+            'gender' => 'required',
+        ]);
         //
+        $input=$request->all();
+        if($file = $request->file('photo'))
+        {
+            $name = $file->getClientOriginalName();
+            $file->move('public/backend/images/applicants', $name);
+            //  $photo = Photo::create(['file'=>$name]);
+            $input['photo'] = $name;
+        }
+        $applications=new Job();
+        $applications->create($input);
+        return redirect('/success');
     }
 
     /**
@@ -69,7 +84,7 @@ class JobController extends Controller
      */
     public function update(Request $request, Job $job)
     {
-        //
+
     }
 
     /**
