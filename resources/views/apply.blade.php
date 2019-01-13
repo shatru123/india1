@@ -61,15 +61,15 @@
                             <div align="center"><h4>Basic Details</h4></div>
                             <div class="form-group">
                                 {!! Form::label('f_name', 'First Name:') !!}
-                                {!! Form::text('name', null, ['class'=>'form-control'])!!}
+                                {!! Form::text('f_name', null, ['class'=>'form-control'])!!}
                             </div>
                             <div class="form-group">
                                 {!! Form::label('m_name', 'Middle Name:') !!}
-                                {!! Form::text('name', null, ['class'=>'form-control'])!!}
+                                {!! Form::text('m_name', null, ['class'=>'form-control'])!!}
                             </div>
                             <div class="form-group">
                                 {!! Form::label('l_name', 'Last Name:') !!}
-                                {!! Form::text('name', null, ['class'=>'form-control'])!!}
+                                {!! Form::text('l_name', null, ['class'=>'form-control'])!!}
                             </div>
                             <div class="form-group">
                                 {!! Form::label('dob', 'Date Of Birth:') !!}

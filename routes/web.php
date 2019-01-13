@@ -24,6 +24,7 @@ Auth::routes();
 
 Route::get('/home', 'Indexcontroller@index')->name('home');
 Route::get('/farmer', 'Indexcontroller@farmer')->name('farmer');
+Route::get('/success', 'JobController@success')->name('success');
 Route::resource('/apply', 'JobController');
 
 Route::group(['middleware'=>'is_admin'], function(){

@@ -17,6 +17,11 @@ class JobController extends Controller
         return view('apply');
     }
 
+ public function success()
+    {
+        return view('success');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
