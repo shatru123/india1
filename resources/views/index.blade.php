@@ -241,18 +241,21 @@
                     <div class="col-md-6 col-sm-12 col-lg-6">
                         <div class="our-missions">
                             <h5 itemprop="headline">MISSION & VISSION</h5>
-                            <div class="missions-list remove-ext3">
-                                <div class="missions-box brd-rd5">
-                                    <a class="brd-rd5" href="{{route('farmer')}}" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/farmer.jpg')}}" alt="farmer.jpg" itemprop="image"></a>
-                                    <div class="mission-box-info">
-                                        <h6 itemprop="headline"><a href="{{route('farmer')}}" title="" itemprop="url">Farmers</a></h6>
-                                        <p itemprop="description">
-                                            Farming & Agriculture are most unorganized Sectors in our society which affects the Farmers who is known as ‘बळीराजा’ in Marathi. Contribution of Food Industry is 14% of total Gross Domestic Product (G D P )
-                                            In order to support this weak element we are offering some services & consultancies to upgrade the Farmers quality of life.
-                                            We are going to cater the needs of farmers like water shortage, Fertilizers, Quality of Soil, Collection & Distribution of  agricultural products produced, Panel of Consultants, Cattle caretaking, Technical support for Bio-gas units.
-                                        </p>
-                                    </div>
-                                </div>
+                            {{--<div class="missions-list remove-ext3">--}}
+                                {{--<div class="missions-box brd-rd5">--}}
+                                    {{--<a class="brd-rd5" href="{{route('farmer')}}" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/farmer.jpg')}}" alt="farmer.jpg" itemprop="image"></a>--}}
+                                    {{--<div class="mission-box-info">--}}
+                                        {{--<h6 itemprop="headline"><a href="{{route('farmer')}}" title="" itemprop="url">Farmers</a></h6>--}}
+                                        {{--<p itemprop="description">--}}
+                                            {{--Farming & Agriculture are most unorganized Sectors in our society which affects the Farmers who is known as ‘बळीराजा’ in Marathi. Contribution of Food Industry is 14% of total Gross Domestic Product (G D P )--}}
+                                            {{--In order to support this weak element we are offering some services & consultancies to upgrade the Farmers quality of life.--}}
+                                            {{--We are going to cater the needs of farmers like water shortage, Fertilizers, Quality of Soil, Collection & Distribution of  agricultural products produced, Panel of Consultants, Cattle caretaking, Technical support for Bio-gas units.--}}
+                                        {{--</p>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+
+                                <a class="brd-rd5" href="{{route('farmer')}}" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/farmer4.jpg')}}" alt="farmer.jpg" style="width: max-content" itemprop="image"></a>
+
                                 {{--<div class="missions-box brd-rd5">--}}
                                 {{--<a class="brd-rd5" href="mission-vission.html" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/mission-img2.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>--}}
                                 {{--<div class="mission-box-info">--}}
@@ -261,7 +264,7 @@
                                 {{--</div>--}}
                                 {{--</div>--}}
 
-                            </div>
+                            {{--</div>--}}
                         </div>
                     </div>
 
@@ -272,7 +275,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="missions-box brd-rd">
-                            <a class="brd-rd" href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/education.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>
+                            {{--<a class="brd-rd" href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/education.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>--}}
                             <div class="mission-box-info">
                                 <h6 itemprop="headline"><a href="" title="" itemprop="url">Education</a></h6>
                                 <p itemprop="description">Education Field is the most important field in any developing country & hence for India also. Students & Parents are puzzled for their ward’s career. Large spectrum of scope adds to this situation. Similarly lack of clarity about Institution’s Grading  also affects the decisions taken.
@@ -283,20 +286,21 @@
 
 
 
-                    <div class="col-md-6">
-                        <div class="missions-box brd-rd">
-                            <a class="brd-rd" href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/orphan.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>
-                            <div class="mission-box-info">
-                                <h6 itemprop="headline"><a href="" title="" itemprop="url">Rehabilitation of Orphan children</a></h6>
-                                <p itemprop="description">
-                                    Orphan Children is the burning problem in Indian society. Millions of children are orphan in India, which is wastage of future human power. At the same time they may be nuisance to the society, which may add to poverty.
-                                    In order to improve the quality of life for these children we are providing the support for these children by  Identification and Rehabilitation of  needy children, Guidance for education.  Personality Development, Assistance & expert’s advice for education & Career guidance.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="col-md-6">--}}
+                        {{--<div class="missions-box brd-rd">--}}
+                            {{--<a class="brd-rd" href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/orphan.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>--}}
+                            {{--<div class="mission-box-info">--}}
+                                {{--<h6 itemprop="headline"><a href="" title="" itemprop="url">Rehabilitation of Orphan children</a></h6>--}}
+                                {{--<p itemprop="description">--}}
+                                    {{--Orphan Children is the burning problem in Indian society. Millions of children are orphan in India, which is wastage of future human power. At the same time they may be nuisance to the society, which may add to poverty.--}}
+                                    {{--In order to improve the quality of life for these children we are providing the support for these children by  Identification and Rehabilitation of  needy children, Guidance for education.  Personality Development, Assistance & expert’s advice for education & Career guidance.--}}
+                                {{--</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
 
+                    <a class="" href="" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/resources/education.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>
 
                 </div>
                 <hr>
@@ -330,11 +334,6 @@
 
 
                 </div>
-
-
-
-
-
 
             </div>
         </div>

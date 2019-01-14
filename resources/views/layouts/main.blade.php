@@ -56,7 +56,7 @@
 
                         <a class="" href="{{ route('login') }}"><i class="fa fa-sign-in theme-clr"></i>{{ __('Login') }}</a>
                             @if (Route::has('register'))
-                        <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
+                        <a href="{{ route('register') }}" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
                             @endif
 
                     </div>
