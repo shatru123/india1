@@ -40,4 +40,10 @@ return [
         ],
     ],
 
+
+    'google' => [
+        'client_id' => '431084702180-n6dd6bkdvkkecenf809b1kseiibp12kk.apps.googleusercontent.com',
+        'client_secret' => 'I45FpfH8-Qs1ibpenvY2CVQJ',
+        'redirect' => 'http://localhost/india1/callback'],
+
 ];

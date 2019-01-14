@@ -31,6 +31,10 @@ Route::get('/farmer', 'Indexcontroller@farmer')->name('farmer');
 Route::get('/success', 'JobController@success')->name('success');
 
 
+Route::get('/redirect', 'SocialAuthGoogleController@redirect');
+Route::get('/callback', 'SocialAuthGoogleController@callback');
+
+
 Route::group(['middleware'=>'is_admin'], function(){
     Route::resource('admin/mpmla', 'MpmlaController');
     Route::resource('admin/state', 'StateController');

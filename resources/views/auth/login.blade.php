@@ -80,7 +80,6 @@ License: You must have a valid license purchased only from themeforest to legall
                                     <label class="label">Username</label>
                                     <div class="input-group">
                                         <input type="email" id="email" name="email" class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}" placeholder="Username">
-
                                         @if ($errors->has('email'))
                                             <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('email') }}</strong>
@@ -117,11 +116,10 @@ License: You must have a valid license purchased only from themeforest to legall
                                         Login with Facebook
                                     </button>
 
-                                    <button class="loginBtn loginBtn--google">
-                                        Login with Google
-                                    </button>
-
-
+                                    {{--<button class="loginBtn loginBtn--google">--}}
+                                        {{--Login with Google--}}
+                                    {{--</button>--}}
+                                    <a href="{{ url('/redirect') }}"  class="loginBtn loginBtn--google">Login With Google</a>
 
                                     <style>
 
@@ -211,8 +209,6 @@ License: You must have a valid license purchased only from themeforest to legall
                                     <a href="{{ route('register') }}" class="text-black text-small">Create new account</a>
                                 </div>
                             </form>
-
-
                         </div>
                     </div>
                 </div>
