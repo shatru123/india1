@@ -16,6 +16,10 @@ Route::get('/admin', 'AdminController@index')
     ->middleware('is_admin')
     ->name('admin');
 
+Route::get('/user', 'UserController@index')
+    ->middleware('is_user')
+    ->name('admin');
+
 Route::get('/', 'Indexcontroller@index');
 
 
@@ -25,7 +29,7 @@ Auth::routes();
 Route::get('/home', 'Indexcontroller@index')->name('home');
 Route::get('/farmer', 'Indexcontroller@farmer')->name('farmer');
 Route::get('/success', 'JobController@success')->name('success');
-Route::resource('/apply', 'JobController');
+
 
 Route::group(['middleware'=>'is_admin'], function(){
     Route::resource('admin/mpmla', 'MpmlaController');
@@ -34,5 +38,11 @@ Route::group(['middleware'=>'is_admin'], function(){
     Route::resource('admin/events', 'EventController');
     Route::resource('admin/news', 'NewsController');
     Route::resource('admin/ads', 'AdsController');
+
+});
+
+Route::group(['middleware'=>'is_user'], function(){
+    Route::resource('user/home', 'UserController');
+    Route::resource('/apply', 'JobController');
 
 });

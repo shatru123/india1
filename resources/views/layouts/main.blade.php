@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Country - Political HTML5 Template</title>
+    <title>ImprovingIndia</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('public/frontend/assets/css/bootstrap.min.css')}}"><!-- Bootstrap -->
@@ -51,15 +51,45 @@
             <div class="container">
                 <div class="header-top-inner">
                     <div class="logo"><a href="{{route('home')}}" title="" itemprop="url"><img src="{{asset('public/frontend/assets/images/lg.png')}}" alt="logo.png" itemprop="image"></a></div>
+                    @guest
                     <div class="top-links">
-                        <a href="#" title=""><i class="fa fa-sign-in theme-clr"></i> Login</a>
+
+                        <a class="" href="{{ route('login') }}"><i class="fa fa-sign-in theme-clr"></i>{{ __('Login') }}</a>
+                            @if (Route::has('register'))
                         <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
+                            @endif
+
                     </div>
-                    <a class="brd-rd30 theme-btn theme-bg" href="" title="" itemprop="url">DONATE</a>
-                    <div class="top-links">
-                        <a href="" title="" itemprop="url">BECOME A MEMBER</a>
-                        <a href="#" title="" itemprop="url"><i class="fa fa-shopping-basket theme-clr"></i> SHOP</a>
+                        @else
+                        <div class="top-links">
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle theme-clr" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+
                     </div>
+                    @endguest
+
+
+
+                    {{--<a class="brd-rd30 theme-btn theme-bg" href="" title="" itemprop="url">DONATE</a>--}}
+                    {{--<div class="top-links">--}}
+                        {{--<a href="" title="" itemprop="url">BECOME A MEMBER</a>--}}
+                        {{--<a href="#" title="" itemprop="url"><i class="fa fa-shopping-basket theme-clr"></i> SHOP</a>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>

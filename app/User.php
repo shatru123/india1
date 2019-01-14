@@ -14,7 +14,12 @@ class User extends Authenticatable
     const DEFAULT_TYPE = 'default';
     public function isAdmin()    {
         return $this->type === self::ADMIN_TYPE;
-        return $this->type===self::ADMIN_TYPE;
+//        return $this->type===self::ADMIN_TYPE;
+    }
+
+    public function isuser()    {
+        return $this->type === self::DEFAULT_TYPE;
+//        return $this->type===self::ADMIN_TYPE;
     }
 
     protected $fillable = [
