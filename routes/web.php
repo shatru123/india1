@@ -46,6 +46,7 @@ Route::group(['middleware'=>'is_admin'], function(){
     Route::resource('admin/events', 'EventController');
     Route::resource('admin/news', 'NewsController');
     Route::resource('admin/ads', 'AdsController');
+    Route::resource('admin/colleges', 'CollegeController');
 
 });
 

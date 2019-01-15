@@ -52,50 +52,50 @@
                 {!! Form::select('gender', array('male'=>'Male','Female'=>  'Female'), null , ['class'=>'form-control'])!!}
             </div>
 
-             <script src="https://cdn.ckeditor.com/ckeditor5/11.1.1/classic/ckeditor.js"></script>
-                     <div class="form-group">
-                         {!! Form::label('history', 'History:') !!}
-                         {!! Form::textarea('history', null, ['class'=>'form-control','id'=>'history'])!!}
-                     </div>
-                     <script>
-                         ClassicEditor
-                             .create( document.querySelector( '#history' ) )
-                             .then( editor => {
-                             console.log( editor );
-                         } )
-                         .catch( error => {
-                             console.error( error );
-                         } );
-              </script>
+            <script src="https://cdn.ckeditor.com/ckeditor5/11.1.1/classic/ckeditor.js"></script>
             <div class="form-group">
-                         {!! Form::label('works', 'Work:') !!}
-                         {!! Form::textarea('works', null, ['class'=>'form-control','id'=>'works'])!!}
-                     </div>
-                     <script>
-                         ClassicEditor
-                             .create( document.querySelector( '#works' ) )
-                             .then( editor => {
-                             console.log( editor );
-                         } )
-                         .catch( error => {
-                             console.error( error );
-                         } );
-              </script>
+                {!! Form::label('history', 'History:') !!}
+                {!! Form::textarea('history', null, ['class'=>'form-control','id'=>'history'])!!}
+            </div>
+            <script>
+                ClassicEditor
+                    .create( document.querySelector( '#history' ) )
+                    .then( editor => {
+                        console.log( editor );
+                    } )
+                    .catch( error => {
+                        console.error( error );
+                    } );
+            </script>
+            <div class="form-group">
+                {!! Form::label('works', 'Work:') !!}
+                {!! Form::textarea('works', null, ['class'=>'form-control','id'=>'works'])!!}
+            </div>
+            <script>
+                ClassicEditor
+                    .create( document.querySelector( '#works' ) )
+                    .then( editor => {
+                        console.log( editor );
+                    } )
+                    .catch( error => {
+                        console.error( error );
+                    } );
+            </script>
 
             <div class="form-group">
-                         {!! Form::label('bio', 'BIO:') !!}
-                         {!! Form::textarea('bio', null, ['class'=>'form-control','id'=>'bio'])!!}
-                     </div>
-                     <script>
-                         ClassicEditor
-                             .create( document.querySelector( '#bio' ) )
-                             .then( editor => {
-                             console.log( editor );
-                         } )
-                         .catch( error => {
-                             console.error( error );
-                         } );
-              </script>
+                {!! Form::label('bio', 'BIO:') !!}
+                {!! Form::textarea('bio', null, ['class'=>'form-control','id'=>'bio'])!!}
+            </div>
+            <script>
+                ClassicEditor
+                    .create( document.querySelector( '#bio' ) )
+                    .then( editor => {
+                        console.log( editor );
+                    } )
+                    .catch( error => {
+                        console.error( error );
+                    } );
+            </script>
 
 
             <div class="form-group">
