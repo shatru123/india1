@@ -112,13 +112,14 @@ License: You must have a valid license purchased only from themeforest to legall
                                 <div class="form-group">
                                     <button class="btn btn-primary submit-btn btn-block">Login</button>
                                     <br>
-                                    <button class="loginBtn loginBtn--facebook">
-                                        Login with Facebook
-                                    </button>
+                                    {{--<button class="loginBtn loginBtn--facebook">--}}
+                                        {{--Login with Facebook--}}
+                                    {{--</button>--}}
 
                                     {{--<button class="loginBtn loginBtn--google">--}}
                                         {{--Login with Google--}}
                                     {{--</button>--}}
+                                    <a href="{{url('/redirect1')}}"  class="loginBtn loginBtn--facebook">Login With Facebook</a>
                                     <a href="{{ url('/redirect') }}"  class="loginBtn loginBtn--google">Login With Google</a>
 
                                     <style>
@@ -144,6 +145,7 @@ License: You must have a valid license purchased only from themeforest to legall
                                             font-size: 16px;
                                             color: #FFF;
                                         }
+
                                         .loginBtn:before {
                                             content: "";
                                             box-sizing: border-box;

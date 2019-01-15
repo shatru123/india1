@@ -46,4 +46,10 @@ return [
         'client_secret' => 'I45FpfH8-Qs1ibpenvY2CVQJ',
         'redirect' => 'http://localhost/india1/callback'],
 
+    'facebook' => [
+        'client_id' => '2324347774461794',
+        'client_secret' => '8a83034c6dc42942755f3c39e235b31c',
+        'redirect' => 'http://localhost/india1/callback1',
+    ],
+
 ];

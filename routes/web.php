@@ -30,9 +30,13 @@ Route::get('/home', 'Indexcontroller@index')->name('home');
 Route::get('/farmer', 'Indexcontroller@farmer')->name('farmer');
 Route::get('/success', 'JobController@success')->name('success');
 
-
+// Google Login
 Route::get('/redirect', 'SocialAuthGoogleController@redirect');
 Route::get('/callback', 'SocialAuthGoogleController@callback');
+
+// Facebook Login
+Route::get('/redirect1', 'SocialAuthFacebookController@redirect');
+Route::get('/callback1', 'SocialAuthFacebookController@callback');
 
 
 Route::group(['middleware'=>'is_admin'], function(){

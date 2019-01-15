@@ -228,6 +228,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
+
     ],
 
 ];

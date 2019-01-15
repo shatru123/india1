@@ -7,6 +7,7 @@ use App\User;
 use Socialite;
 use Auth;
 use Exception;
+use App\models\SocialLogin;
 
 class SocialAuthGoogleController extends Controller
 {
@@ -24,11 +25,21 @@ class SocialAuthGoogleController extends Controller
             $existUser = User::where('email',$googleUser->email)->first();
 
 
+            $user = new SocialLogin;
+            $user->name = $googleUser->name;
+            $user->email = $googleUser->email;
+            $user->google_id = $googleUser->id;
+            $user->password = md5(rand(1,10000));
+            $user->save();
+            Auth::loginUsingId($user->id);
+
+
             if($existUser) {
                 Auth::loginUsingId($existUser->id);
             }
             else {
                 $user = new User;
+//                $user = new SocialLogin();
                 $user->name = $googleUser->name;
                 $user->email = $googleUser->email;
                 $user->google_id = $googleUser->id;
